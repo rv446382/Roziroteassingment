@@ -1,0 +1,271 @@
+* {
+    font-size: 18px;
+
+}
+
+.container-fluid>.navbar-brand>img {
+    width: 130px;
+    height: 90px;
+
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgwhiteba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.video-section {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.fullscreen-video {
+    width: 100%;
+}
+
+.video-title {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 2em;
+}
+
+.content-slider-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.flex_container {
+    display: flex;
+    margin: 50px;
+}
+
+.flex_two {
+    flex: 2;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrap {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.content-slider {
+    width: 100%;
+}
+
+.slider-image {
+    width: 100%;
+    display: none;
+
+
+}
+
+.slider-image img {
+    width: 800px;
+    border-radius: 40px 50px 60px;
+    height: 500px;
+
+}
+
+.slider-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active-dot {
+    background-color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: orange;
+
+}
+
+.btn:hover {
+    background-color: #ff7f00;
+
+}
+
+.arrow {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+
+.arrow:hover {
+    background-color: #ff7f00;
+}
+
+.slider-container {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.slider {
+    display: flex;
+}
+
+.slide {
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+
+.slide:last-child {
+    margin-right: 0;
+}
+
+.slide img {
+    width: 600px;
+    height: 400px;
+
+
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.slide:hover .overlay {
+    opacity: 1;
+}
+
+.explore {
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h4,
+hr,
+h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#main {
+    display: flex;
+    background-color: rgb(206, 216, 213);
+    height: 80%;
+    padding-bottom: 40px;
+    padding: 50px;
+
+}
+
+#main>.top {
+    display: flex;
+    gap: 120px;
+
+
+}
+
+
+
+#main>.sub-top>div {
+    width: 80 auto;
+
+
+
+}
+
+#main>.top>.low>.inner {
+    display: flex;
+    gap: 5px;
+
+
+
+
+}
+
+#main>.top>.sub-top {
+    border-radius: 10px;
+}
+
+.second-top {
+    display: flex;
+    margin: 10 auto;
+    gap: 100px;
+    background-color: gray;
+    width: 1520px;
+
+
+}
+
+.second-top>div {
+    display: flex;
+    margin: 10px;
+    gap: 100px;
+    color: white;
+
+}
+
+.second-top>div>button {
+    margin-top: 15px;
+    width: 150px;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: none;
+
+
+
+}
